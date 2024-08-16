@@ -1,0 +1,57 @@
+@charset "UTF-8";
+   body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            margin-top: 50px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        select {
+            width: 100%;
+            max-width: 400px;
+            height: 35px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            padding: 6px 12px;
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 400px;
+            height: 150px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            padding: 6px 12px;
+            resize: vertical; /* Allow vertical resizing */
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: 1px solid #007bff;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }

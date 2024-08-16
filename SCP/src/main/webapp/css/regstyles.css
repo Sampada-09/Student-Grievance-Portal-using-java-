@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;family=Ubuntu:wght@400;500;700&display=swap')
+	;
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 20px 0;
+	background-color: transparent;
+	z-index: 999;
+	
+	background: black;
+	
+}
+
+.navbar.sticky {
+	padding: 10px 0;
+	background: black;
+}
+
+.navbar .max-width {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a {
+	color: white;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.navbar .logo a span {
+	font-weight: 100;
+	color: rgb(18, 228, 228);
+}
+
+.navbar .menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar .menu li {
+	margin-left: 25px;
+}
+
+.navbar .menu li a {
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	transition: color 0.7s ease;
+}
+
+.navbar .menu li a:hover {
+	color: #2c4893;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 60px);
+	margin-top: 60px;
+	background-color:white;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-top: 20px;
+	align-items: center;
+	background: linear-gradient(90deg, #0162c8, #2fbbd0);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h2 {
+	font-size: 24px;
+	margin: 20px 0;
+	color: white;
+	font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+/* Update radio button styles */
+.input-container input[type="radio"] {
+	display: inline-block;
+	margin-right: 10px; /* Adjust spacing between radio buttons */
+}
+
+.input-container label {
+	display: inline-block;
+	margin-right: 20px; /* Adjust spacing between labels */
+	color: white; /* Change label color */
+}
+
+.input-container label:hover {
+	cursor: pointer;
+}
+
+.input-container input, .input-container select {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 8px;
+	border: 1px solid #c4c4c4;
+	padding: 10px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.signup-btn {
+	width: 100%;
+	max-width: 200px;
+	background: #00008b;
+	color: white;
+	border: none;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	cursor: pointer;
+}
+
+.signup-btn:hover {
+	background: #2c4893;
+}
+
+.side {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	background: linear-gradient(90deg, #0162c8, #2fbbd0);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.side img {
+	width: 80%;
+	height: auto;
+}
+
+.copy {
+	text-align: center;
+	color: white;
+}
+
+.copy h1 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.gender-radio {
+	margin-top: 10px;
+}
+
+.gender-radio label {
+	display: inline-block;
+	margin-right: 20px;
+	color: white;
+	cursor: pointer;
+}
+
+.gender-radio input[type="radio"] {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.gender-radio input[type="radio"]:checked+label {
+	font-weight: bold;
+}
+
+.btn {
+	text-align: center;
+}
+
+.chexbox {
+	text-align: center;
+}

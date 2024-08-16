@@ -1,0 +1,144 @@
+@charset "UTF-8";
+body {
+	background-color: white; /* Set background color to black */
+	/* Set text color to white */
+	font-family: Arial, sans-serif; /* Set font family */
+	height: 200vh; /* Full height of the viewport */
+	margin: 0;
+}
+
+#container {
+	width: 600px;
+	margin: 0 auto; /* Center the container horizontally */
+	padding: 20px;
+	background-color:white;
+	/* Semi-transparent black background */
+	border-radius: 10px; /* Rounded corners */
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+	/* White shadow effect */
+}
+
+.navbar {
+	position: relative;
+	width: 100%;
+	padding: 20px 0;
+	font-family: 'Ubuntu', sans-serif;
+	z-index: 999;
+	width: 100%;
+	background:black
+	/*z-index specifies the stack order of element and positive specifies above*/
+}
+
+
+.navbar .max-width {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a {
+	color: white;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.navbar .logo a span {
+	font-weight: 100;
+	color: rgb(18, 228, 228);
+}
+
+.navbar .menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a {
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 25px;
+	transition: color 0.7s ease;
+}
+
+.navbar .menu li a:hover {
+	/* color:rgb(12, 220, 227); */
+	padding: 4px 8px 2px 12px;
+	border-radius: 25px;
+	background: linear-gradient(90deg, #0162c8, #2fbbd0);
+}
+
+style>
+
+.navbar {
+ /* z-index specifies the stack order of element and positive specifies above */
+}
+
+#login-container {
+	width: 500px;
+	margin: 50px auto 0;
+	padding: 34px;
+	background: linear-gradient(90deg, #0162c8, #55e7fc);
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Blue shadow effect */
+	
+}
+
+#login-container h2 {
+	text-align: center;
+}
+
+#login-form label {
+	display: block;
+	margin-bottom: 10px;
+	color: white; /* Text color for labels */
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	width: calc(100% - 20px); /* Adjusted width to account for padding */
+	padding: 10px; /* Increased padding */
+	margin-bottom: 20px; /* Increased margin bottom */
+	border: none; /* Removed border */
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-color: white;
+	color:black;
+	}
+
+#login-form input[type="submit"] {
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 5px;
+	background-color: #00008b; /* Green */
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s;
+}
+
+#login-form input[type="submit"]:hover {
+	background-color: #2c4893; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+	background-color: #333; /* Dark background color */
+	color: #fff; /* Text color */
+	padding: 20px 0; /* Padding at the top and bottom */
+	text-align: center; /* Center-align text */
+	position: fixed; /* Fixed position at the bottom */
+	width: 100%; /* Full width */
+	bottom: 0; /* Stick to the bottom */
+}
+
+footer p {
+	margin: 0; /* Remove default margin */
+	font-size: 14px; /* Adjust font size */
+}
+
+/* Hover effect for footer text */
+footer p:hover {
+	color: #ccc; /* Lighten text color on hover */
+}
